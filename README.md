@@ -59,7 +59,8 @@ ansible-whatsapp-reminder-bot/
 
 4. Run it:
    ansible-playbook -i inventory/localhost.ini playbook.yml
-![image](https://github.com/user-attachments/assets/ee4fc1aa-25fb-4d6a-bf89-6090c2d71e2e)
+![image](https://github.com/user-attachments/assets/fc2a6319-e98e-4a56-9762-25641e681ea8)
+
 
 
 5. 🔁 Schedule with Cron

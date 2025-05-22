@@ -1,16 +1,16 @@
-🗓️ Reminders for {{ date }}
+Reminders for {{ date }}
 
-🥬 Indian groceries:
-{% for item in indian_groceries %}
+📦 Grocery List:
+{% for item in grocery_list %}
 - {{ item }}
 {% endfor %}
 
-🛒 Costco Groceries Basic:
-{% for item in costco %}
-- {{ item }}
+🛠 Household Tasks:
+{% for task in household_tasks %}
+- {{ task }}
 {% endfor %}
 
-🏡 House Reminders:
-{% for item in house %}
-- {{ item }}
-{% endfor %}}
+🧠 Other Reminders:
+{% for note in reminders %}
+- {{ note }}
+{% endfor %}

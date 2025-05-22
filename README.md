@@ -20,16 +20,8 @@ It’s designed to help you and your roommates stay on top of groceries, chores,
 
 ## 📂 Folder Structure
 
-ansible-whatsapp-reminder-bot/
-├── data/             # Reminders and messages
-├── inventory/        # Ansible inventory
-├── roles/
-│   └── notifier/
-│       ├── tasks/
-│       └── templates/
-├── vars/             # Twilio credentials (excluded via .gitignore)
-├── playbook.yml      # Main Ansible playbook
-└── README.md
+![image](https://github.com/user-attachments/assets/c8c050fd-7ed3-46c8-be6c-b1a3c139624e)
+
 
 
 ---
@@ -59,7 +51,9 @@ ansible-whatsapp-reminder-bot/
 
 4. Run it:
    ansible-playbook -i inventory/localhost.ini playbook.yml
-![image](https://github.com/user-attachments/assets/fc2a6319-e98e-4a56-9762-25641e681ea8)
+
+![Screenshot 2025-05-22 at 4 51 11 PM](https://github.com/user-attachments/assets/986fc87e-df0c-48b1-9e03-61ae239e553c)
+
 
 
 

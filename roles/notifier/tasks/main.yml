@@ -1,0 +1,26 @@
+- name: Load daily data
+  include_vars:
+    file: "{{ playbook_dir }}/data/daily_reminders.yml"
+
+- name: Render message template
+  template:
+    src: message.txt.j2
+    dest: /tmp/message.txt
+
+- name: Display message (simulate notification)
+  command: cat /tmp/message.txt
+
+- name: Send WhatsApp reminders via Twilio
+  uri:
+    url: "https://api.twilio.com/2010-04-01/Accounts/{{ twilio_sid }}/Messages.json"
+    method: POST
+    user: "{{ twilio_sid }}"
+    password: "{{ twilio_auth_token }}"
+    body:
+      To: "{{ item }}"
+      From: "{{ twilio_from }}"
+      Body: "{{ lookup('file', '/tmp/message.txt') }}"
+    body_format: form-urlencoded
+    headers:
+      Content-Type: "application/x-www-form-urlencoded"
+  loop: "{{ recipients }}"

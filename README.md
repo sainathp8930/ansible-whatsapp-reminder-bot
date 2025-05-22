@@ -70,7 +70,7 @@ ansible-whatsapp-reminder-bot/
 👨‍💻 Author
 
 Sainath Reddy
-GitHub(https://github.com/sainathp8930)| [LinkedIn](https://www.linkedin.com/in/sainath-reddy-5947ba125/)
+[GitHub](https://github.com/sainathp8930)| [LinkedIn](https://www.linkedin.com/in/sainath-reddy-5947ba125/)
 
 📄 License
 

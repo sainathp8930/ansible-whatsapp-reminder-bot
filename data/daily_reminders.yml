@@ -1,32 +1,25 @@
 date: "2025-05-22"
-indian_groceries:
-  - Milk
-  - Tomatoes
-  - Coriander & Curry leaves
-  - Onions
-  - Any 3 veggies 
-  - Capsicum (3 types)
-  - Spring onions
-  - Check for Dals
-  - Snacks (Biscuits etc..)
-costco:
-  - Paper towels
-  - Bath tissues
-  - Water
-  - Eggs
-  - Dishwasher tabs
-  - Laundry liquid
-  - Face wash & Body wash
-  - Tooth Paste
-  - Rice bag, Sugar, Basmati
 
-house:
-  - Trash Days - Monday, Wednesday, Friday
-  - Restroom cleaning - Every Saturday/Sunday
-  - House Cleaning (broom and mop)
-  - Dishwasher & Washing machine deep clean (Every Month)
-  - Be aware of water usage(Try using less water and save electricity bill)
+grocery_list:
+  - Milk
+  - Bread
+  - Eggs
+  - Fruits
+  - Vegetables
+  - Snacks
+
+household_tasks:
+  - Take out trash
+  - Vacuum living room
+  - Clean bathroom
+  - Water indoor plants
+  - Pay utility bills
+
+reminders:
+  - Team meeting at 10 AM
+  - Call family
+  - Workout session at 6 PM
+
 recipients:
-  - "whatsapp:+19452731045"
-  - "whatsapp:+19452170366"
-  - "whatsapp:+12143166714"
+  - "whatsapp:+12345678901"
+  - "whatsapp:+10987654321"

@@ -65,7 +65,8 @@ ansible-whatsapp-reminder-bot/
 0 17 * * 1 [ $(expr $(date +\%s) / 604800 \% 2) -eq 0 ] && cd ~/ansible-daily-notifier && /usr/bin/ansible-playbook -i inventory/localhost.ini playbook.yml
 
 📸 Demo Screenshot
-![IMG_8540](https://github.com/user-attachments/assets/91d1e3b3-c37c-44cb-86d8-bef394eb350e)
+![image](https://github.com/user-attachments/assets/136d175b-ccca-44c7-9af6-267ff89744be)
+
 
 👨‍💻 Author
 

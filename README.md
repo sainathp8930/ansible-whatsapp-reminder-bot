@@ -67,7 +67,7 @@ It’s designed to help you and your roommates stay on top of groceries, chores,
 
 👨‍💻 Author
 
-Sainath Reddy
+Sainath Reddy Pentala
 [GitHub](https://github.com/sainathp8930)| [LinkedIn](https://www.linkedin.com/in/sainath-reddy-5947ba125/)
 
 📄 License
